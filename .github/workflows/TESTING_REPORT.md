@@ -1,0 +1,4 @@
+# Testing report v1.3 (honest)
+Verified here: all 14 JavaScript files pass a syntax check; 17 apps register; Vault encryption and the save/update/find/lock logic (13 checks); translation of Arabic text; workflow file valid and its file-placing and patch steps tested on fake repositories (including old-vs-new files and missing files); the two Java files compile against stand-in Android/Capacitor classes.
+NOT verified: the real Android build, the Java code on a real phone (the stand-ins are my own copy of the APIs), how any screen looks or reacts to touch, the Chromium window position inside windows, password capture on real sites, the Teams and Google fixes, widgets, notifications, the lock screen, the first-run setup, Arabic right-to-left layout.
+Fallbacks: no Java files uploaded or Java fails to compile = app builds without the Chromium window.
